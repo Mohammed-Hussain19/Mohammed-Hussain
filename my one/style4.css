@@ -1,0 +1,185 @@
+body {
+     height: 150vh;
+     width: 100%;
+     background-color: antiquewhite;
+
+}
+
+.container {
+     height: 100%;
+     width: 100%;
+     z-index: -1;
+     background-color: antiquewhite;
+
+
+}
+
+.home {
+     height: 40px;
+     width: 120px;
+     margin-right: 2vw;
+     border: 3px solid black;
+     border-radius: 10px;
+     background-color: antiquewhite;
+}
+
+.home a {
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+}
+
+.nav {
+     height: 90px;
+     width: 100%;
+     background-color: crimson;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 4px solid black;
+     border-radius: 20px;
+}
+
+
+.nav h2,
+a {
+     margin-left: 1vw;
+     text-decoration: none;
+     color: black;
+}
+.container2{
+     height: 100%;
+     width: 100%;
+     background-color: antiquewhite;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.login
+{
+     height: 90%;
+     width: 90%;
+     background-color: antiquewhite;
+     border: 10px double black;
+  
+}.login{
+     font-size: 3vw;
+     gap: 3vw;
+     font-weight: 900;
+  
+   
+     
+}
+.login input{
+     font-size: 3vw;
+     border-bottom: 4px solid darkblue;
+     border-radius: 40px;
+     width: 50vw;
+     height: 4vw;
+     text-align: center;
+          color: black;
+          position: relative;
+          left: 12vw;
+          margin-top: 2vw;
+
+}
+#name{
+     position: relative;
+     left: 27vw;
+}#emi{
+     position: relative;
+     left: 27vw;
+}#mob{
+     position: relative;
+     left: 22vw;
+}
+.close{
+     height: 3vw;
+     width: 10vw;
+     position: relative;
+     left: 50vw;
+     border-radius: 30px;
+}.sub{
+     height: 3vw;
+     width: 10vw;
+     position: relative;
+     left: 60vw;
+     border-radius: 30px;
+}
+.login label{
+     position: relative;
+     left: 10vw;
+     color:darkblue;
+     text-decoration: underline;
+}
+
+@media (max-width:600px) {
+ body{
+     height: 100vh;
+ }
+ .container{
+     height: 100%;
+     width: 100%;
+
+ }   .container2{
+     height: 100%;
+     width: 100%;
+ }
+ .login{
+     height: 60%;
+     width: 100%;
+     border: 0;
+    
+ }
+ .login div{
+     margin-top: 5vw;
+ }
+ .login label {
+      position: relative;
+      left: 4vw;
+      color: darkblue;
+      font-size: 4vw;
+
+}
+.close {
+     height: 10vw;
+     width: 20vw;
+     position: relative;
+     left: 40vw;
+     border-radius: 30px;
+     top: 10vw;
+     background-color: rgb(240, 159, 159);
+     font-size: 4vw;
+
+}
+
+.sub {
+     height: 10vw;
+     width: 20vw;
+     position: relative;
+     left: 45vw;
+     border-radius: 30px;
+     top: 10vw;
+     background-color: rgb(95, 226, 95);
+     font-size: 4vw;
+}
+.login input {
+     font-size: 3vw;
+     border-bottom: 4px solid darkblue;
+     border-radius: 40px;
+     width: 50vw;
+     height: 7vw;
+     text-align: center;
+     color: black;
+     position: relative;
+     left: 8vw;
+     margin-top: 2vw;
+
+}
+#conf{
+     height: 7vw;
+     width: 47vw;
+     position: relative;
+     right: 6vw;
+}
+}
